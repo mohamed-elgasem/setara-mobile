@@ -1,0 +1,94 @@
+.mobile{
+    width: 100%;
+    height: 90vh;
+    background-color: #f2f2f0;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px 0 45px;
+}
+.icon-top .icon{
+    font-size: 20px;
+}
+.icon-top .pen{
+    margin-left: 20px;
+}
+.icon-top .text span{
+    margin-left: 90px;
+}
+.icon-button{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+}
+.button-icon{
+    width: 50%;
+    height: 47px;
+    display: flex;
+    float: left;
+    border-radius: 50%;
+    margin: 20px 4%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #dbdbd9;
+    cursor: pointer;
+    transition: 0.3s ease;
+    /* box-shadow: ; */
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.button-icon label{
+    font-size: 21px;
+    color: #888888;   
+}
+.more label{
+    color: #097eff;
+    line-height: 50px;
+}
+.button-icon p{
+    font-size: 13px;
+    position: absolute;
+    left: 8px;
+    top: 40px;
+}
+.mobile .arrow{
+    position: absolute;
+    top: 89%;
+    left: 14%;
+}
+
+/* Small  */
+@media (min-width: 768px){
+    .mobile{
+      width: 30%;
+    }  
+  }
+  
+  /* Medium */
+  @media (min-width: 992px){
+    .mobile{
+      width: 30%;
+    }  
+  }
+  
+  /* Large  */
+  @media (min-width: 1200px){
+    .mobile{
+      width: 30%;
+    }  
+  }
+  
+  
+  
+  
